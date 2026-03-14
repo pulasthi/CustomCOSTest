@@ -16,5 +16,5 @@ source_image = "gke-1340-gke2201000-cos-121-18867-199-28-c-pre" # !!! REPLACE TH
 
 # --- Image Settings ---
 # Note: The target_image_name must include the substring "cos".
-target_image_name = "gke-1340-custom-cos"
+target_image_name = "gke-cos-pulasthi-1-34-0"
 target_image_family = "custom-cos-test"
