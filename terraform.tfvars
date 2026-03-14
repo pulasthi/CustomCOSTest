@@ -6,7 +6,7 @@ project_id = "cloud-tpu-multipod-dev" # !!! REPLACE THIS VALUE !!!
 # GitHub repository details for the trigger
 github_owner     = "pulasthi"       # !!! REPLACE THIS VALUE !!!
 github_repo_name = "CustomCOSTest" # !!! REPLACE THIS VALUE !!!
-source_image = "gke-1343-gke1444000-cos-125-19216-104-133-c-pre" # !!! REPLACE THIS VALUE !!!
+source_image = "gke-1344-gke1193000-cos-125-19216-104-133-c-pre" # !!! REPLACE THIS VALUE !!!
 
 # ------------------------------------------------------------------------------
 # OPTIONAL SETTINGS (Defaults are in variables.tf)
@@ -16,5 +16,5 @@ source_image = "gke-1343-gke1444000-cos-125-19216-104-133-c-pre" # !!! REPLACE T
 
 # --- Image Settings ---
 # Note: The target_image_name must include the substring "cos".
-target_image_name = "gke-cos-pulasthi-1-34-3"
+target_image_name = "gke-cos-pulasthi-1-34-4"
 target_image_family = "custom-cos-test"
